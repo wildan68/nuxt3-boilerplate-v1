@@ -4,13 +4,13 @@ const store = useCounterStore()
 
 <template>
   <div>
-    Hello worlds
+    Hello world
     <button @click="store.increment()">
       Increment
     </button>
 
     {{ store.count }}
 
-    <IconCSS name="tabler-brand-vue" />
+    <IconCSS name="tabler-brand-vue" size="24px" />
   </div>
 </template>
